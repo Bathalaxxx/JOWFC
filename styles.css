@@ -56,6 +56,20 @@
 
         }
 
+        .logo img {
+            height: 100px;
+            width: auto;
+            margin-right: 20px;
+        }
+
+        .logo h1 {
+            font-size: 100px;
+        }
+
+        .logo span {
+            font-size: 18px;
+            font-weight: 300;}
+
         .about-content {
             background: #fff;
             border-radius: 8px;
