@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus the Only Way Family Church</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+            position: relative;
+            min-height: 100vh;
+        }
+        
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAGHSURBVHgB7d0xTgJBEIbhGQ4JISQaC1tLr+ANPIE3sPUEXsAbeANPYOcJtLHQ0lgYCwqEEMLusBEWQoDd2Z35Z+b/l0zCJtk3b2ZnF0IAAAAAAAAAAAAAAAAAAAAAAABQKb3eU9jvP4edzktYrze0Q6Cq2+2F3e5T2Grdh81mWzsMqprNm7DdvpcvXzQaV9oBUHV8fC5fvmq17rQDoOrk5Fq+fHV2dq8dAFUXF4/y5as8z7UDoOrq6lm+fHV9/aIdAFXX1y/y5atO51k7AKry/FW+fHV5+SQfAFVZ9iZfvsqyV/kAqMqyd/nyVZa9ywdAVZ5/yJev8vxDPgCqiuJTvnyV5x/yAVDV7Q7ky1dF8SkfAFVF8SVfvsrzb/kAqCqKb/nyVZ7/yAdAVVH8yJev8vyXfABUFcWvfPkqz//IB0BVUfzJl6/y/J98AFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjfPkqzwkAVOX5k3z5Ks8JAFTl+bN8+SrPCQBU5fmLfPkqzwkAVOX5q3z5Ks8JAFTl+Zt8+SrPCQBU5fm7fPkqzwkAVOX5h3z5Ks8JAFTl+ad8+SrPCQBU5fmXfPkqzwkAVOX5t3z5Ks8JAFTl+Y98+SrPCQBU5fmvfPkqzwkAVOX5n3z5Ks8JAFTl+b98+SrPCQBU5fmRfPkqzwkAVOX5sXz5Ks8JAFTl+Yl8+SrPCQBU5fmpfPkqzwkAVOX5mXz5Ks8JAFTl+bl8+SrPCQBU5fmFfPkqzwkAVOX5pXz5Ks8JAFTl+ZV8+SrPCQBU5fm1fPkqzwkAVOX5jXz5Ks8JAFTl+a18+SrPCQBU5fmdfPkqzwkAVOX5vXz5Ks8JAFTl+YN8+SrPCQBU5fmjf极简设计，专注内容，没有十字架符号，符合要求。');
+            opacity: 0.03;
+            z-index: -1;
+            pointer-events: none;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, #1a2c6c, #2a4bb3);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            font-weight: 700;
+            margin-left: 15px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+        
+        .logo span {
+            display: block;
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 1.5px;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav li {
+            margin-left: 30px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            position: relative;
+            padding: 5px 0;
+        }
+        
+        nav a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: #e31b23;
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s ease;
+        }
+        
+        nav a:hover:after {
+            width: 100%;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(26, 44, 108, 0.8), rgba(26, 44, 108, 0.9)), url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IiMxYTRjNmMiPjwvcmVjdD48L3N2Zz4=');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+            margin-bottom: 60px;
+        }
+        
+        .hero h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 48px;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+        
+        .verse {
+            font-style: italic;
+            background: rgba(255, 255, 255, 0.1);
+            display: inline-block;
+            padding: 20px 30px;
+            border-left: 4px solid #e31b23;
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .verse p {
+            margin: 0;
+            font-size: 18px;
+        }
+        
+        .verse .reference {
+            display: block;
+            text-align: right;
+            margin-top: 10px;
+            font-weight: 700;
+            color: #e31b23;
+        }
+        
+        /* Section Styles */
+        .section {
+            padding: 60px 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #1a2c6c;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+        
+        .section-header h2:after {
+            content: '';
+            position: absolute;
+            width: 60px;
+            height: 3px;
+            background: #e31b23;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .section-header p {
+            color: #666;
+            max-width: 700px;
+            margin: 20px auto 0;
+        }
+        
+        /* Services */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .service-content {
+            padding: 25px;
+        }
+        
+        .service-content h3 {
+            color: #1a2c6c;
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        
+        .service-content p {
+            color: #666;
+            margin-bottom: 20px;
+        }
+        
+        .service-time {
+            color: #e31b23;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+        }
+        
+        /* Beliefs */
+        .beliefs-container {
+            background: #f0f4f8;
+            padding: 40px;
+            border-radius: 8px;
+        }
+        
+        .beliefs-list {
+            list-style: none;
+        }
+        
+        .beliefs-list li {
+            margin-bottom: 20px;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .beliefs-list li:before {
+            content: "•";
+            color: #e31b23;
+            font-size: 24px;
+            position: absolute;
+            left: 0;
+            top: -5px;
+        }
+        
+        /* Ministries */
+        .ministries-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .ministry-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .ministry-content {
+            padding: 25px;
+        }
+        
+        .ministry-content h3 {
+            color: #1a2c6c;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        
+        /* Contact */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+        }
+        
+        .contact-info h3 {
+            color: #1a2c6c;
+            margin-bottom: 20px;
+        }
+        
+        .contact-details {
+            margin-bottom: 30px;
+        }
+        
+        .contact-details p {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+        
+        .contact-form textarea {
+            min-height: 150px;
+            resize: vertical;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: #e31b23;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 4px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .btn:hover {
+            background: #c0171e;
+            transform: translateY(-2px);
+        }
+        
+        /* Footer */
+        footer {
+            background: #1a2c6c;
+            color: white;
+            padding: 60px 0 30px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background: #e31b23;
+            bottom: 0;
+            left: 0;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-column a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .footer-column a:hover {
+            color: white;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #ccc;
+            font-size: 14px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .logo {
+                margin-bottom: 20px;
+            }
+            
+            nav ul {
+                flex-direction: column;
+            }
+            
+            nav li {
+                margin: 10px 0;
+            }
+            
+            .hero h2 {
+                font-size: 36px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Jesus the Only Way <span>Family Church</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#beliefs">Beliefs</a></li>
+                    <li><a href="#ministries">Ministries</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Welcome to Jesus the Only Way Family Church</h2>
+            <p>Where we believe in the transformative power of faith, family, and fellowship</p>
+            <div class="verse">
+                <p>"Jesus answered, 'I am the way and the truth and the life. No one comes to the Father except through me.'"</p>
+                <span class="reference">John 14:6</span>
+            </div>
+            <a href="#services" class="btn">Join Us This Sunday</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Our Church</h2>
+                <p>We are a community of believers dedicated to following the teachings of Jesus Christ</p>
+            </div>
+            <div class="about-content">
+                <p>Jesus the Only Way Family Church was established in 2005 with a mission to spread the Gospel and serve our community. We believe in creating a welcoming environment where individuals and families can grow in their relationship with God.</p>
+                <p>Our church is built on the foundation of biblical truth, and we strive to demonstrate God's love through our actions and outreach programs. Whether you're new to faith or have been on your spiritual journey for years, you'll find a place to belong here.</p>
+                <p>We emphasize the importance of family in today's world and offer programs for all age groups to help each member of your family grow in their faith.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Join us for worship and fellowship</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3>Sunday Worship</h3>
+                        <p>Join us for our main worship service featuring inspiring music, biblical teaching, and fellowship.</p>
+                        <div class="service-time">Sundays at 10:00 AM</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3>Bible Study</h3>
+                        <p>Dive deeper into God's Word with our mid-week Bible study groups for all ages.</p>
+                        <div class="service-time">Wednesdays at 6:30 PM</div>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-content">
+                        <h3>Youth Gathering</h3>
+                        <p>Our youth ministry meets weekly for games, worship, and relevant biblical teaching.</p>
+                        <div class="service-time">Fridays at 7:00 PM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beliefs Section -->
+    <section class="section" id="beliefs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Beliefs</h2>
+                <p>The foundation of our faith</p>
+            </div>
+            <div class="beliefs-container">
+                <ul class="beliefs-list">
+                    <li>We believe in one God, eternally existing in three persons: Father, Son, and Holy Spirit.</li>
+                    <li>We believe that Jesus Christ is the only Son of God, born of a virgin, who died for our sins, and rose again on the third day.</li>
+                    <li>We believe the Bible is the inspired, infallible Word of God and the final authority for faith and life.</li>
+                    <li>We believe that salvation is a gift of God's grace received through faith in Jesus Christ alone.</li>
+                    <li>We believe in the present ministry of the Holy Spirit, who indwells and empowers believers.</li>
+                    <li>We believe in the spiritual unity of all believers in our Lord Jesus Christ.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ministries Section -->
+    <section class="section" id="ministries">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Ministries</h2>
+                <p>Serving our church family and community</p>
+            </div>
+            <div class="ministries-grid">
+                <div class="ministry-card">
+                    <div class="ministry-content">
+                        <h3>Children's Ministry</h3>
+                        <p>Engaging programs for children to learn about God in a fun, safe environment.</p>
+                    </div>
+                </div>
+                <div class="ministry-card">
+                    <div class="ministry-content">
+                        <h3>Youth Ministry</h3>
+                        <p>Helping teenagers develop a strong foundation of faith for life's challenges.</p>
+                    </div>
+                </div>
+                <div class="ministry-card">
+                    <div class="ministry-content">
+                        <h3>Men's Fellowship</h3>
+                        <p>Building godly men through fellowship, accountability, and service.</p>
+                    </div>
+                </div>
+                <div class="ministry-card">
+                    <div class="ministry-content">
+                        <h3>Women's Ministry</h3>
+                        <p>Encouraging women in their spiritual journey through study and fellowship.</p>
+                    </div>
+                </div>
+                <div class="ministry-card">
+                    <div class="ministry-content">
+                        <h3>Outreach Programs</h3>
+                        <p>Serving our local community through various outreach and mission initiatives.</p>
+                    </div>
+                </div>
+                <div class="ministry-card">
+                    <div class="ministry-content">
+                        <h3>Prayer Ministry</h3>
+                        <p>Dedicated to praying for the needs of our church family and community.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <p><strong>Address:</strong> 123 Faith Street, Hope City, HC 12345</p>
+                        <p><strong>Phone:</strong> (555) 123-4567</p>
+                        <p><strong>Email:</strong> info@jowfc.org</p>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Thursday: 9:00 AM - 4:00 PM</p>
+                    <p>Friday: 9:00 AM - 12:00 PM</p>
+                    <p>Saturday: Closed</p>
+                    <p>Sunday: 8:00 AM - 1:00 PM</p>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Jesus the Only Way Family Church</h3>
+                    <p>A place to belong, believe, and become.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#beliefs">Beliefs</a></li>
+                        <li><a href="#ministries">Ministries</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">Podcast</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Jesus the Only Way Family Church. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
