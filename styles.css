@@ -6,7 +6,7 @@
         }
         
         body {
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Poppins', sans-serif;
             color: #333;
             line-height: 1.6;
             background-color: #f9f9f9;
@@ -87,6 +87,8 @@
             color: #1a2c6c;
             margin-bottom: 20px;
             font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            line-height: 1.3;
         }
 
         .about-content p {
@@ -105,7 +107,7 @@
 
         
         .logo h1 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Poppins', sans-serif;
             font-size: 28px;
             font-weight: 700;
             margin-left: 15px;
@@ -165,7 +167,7 @@
         }
         
         .hero h2 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Poppins', sans-serif;
             font-size: 48px;
             margin-bottom: 20px;
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
@@ -213,7 +215,7 @@
         }
         
         .section-header h2 {
-            font-family: 'Playfair Display', serif;
+            font-family: 'Poppins', sans-serif;
             font-size: 36px;
             color: #1a2c6c;
             position: relative;
@@ -359,7 +361,7 @@
             margin-bottom: 20px;
             border: 1px solid #ddd;
             border-radius: 4px;
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: 'Poppins', sans-serif;
         }
         
         .contact-form textarea {
@@ -440,6 +442,31 @@
             border-top: 1px solid rgba(255, 255, 255, 0.1);
             color: #ccc;
             font-size: 14px;
+        }
+
+        .board-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+        .board-card {
+            text-align: center;
+            max-width: 200px;
+        }
+        .board-photo img {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .board-content h3 {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+        }
+        .board-content p {
+            font-size: 0.95rem;
+            color: #555;
         }
         
         /* Responsive */
