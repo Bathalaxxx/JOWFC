@@ -30,6 +30,10 @@
             pointer-events: none;
         }
         
+        .service-schedule .time {
+        color: red;
+        }
+        
         .container {
             max-width: 1200px;
             margin: 0 auto;
@@ -468,6 +472,21 @@
             font-size: 0.95rem;
             color: #555;
         }
+
+        .map-container {
+            position: relative;
+            width: 100%;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin: 20px 0;
+        }
+
+        .map-container iframe {
+            display: block;
+            width: 100%;
+            height: 400px;
+        }
         
         /* Responsive */
         @media (max-width: 768px) {
@@ -495,5 +514,13 @@
             .hero p {
                 font-size: 18px;
             }
+
+            .map-container iframe {
+                height: 300px;
+            }
+
         }
+
+
+
 
